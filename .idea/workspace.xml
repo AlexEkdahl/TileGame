@@ -2,15 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1590c98b-1172-4d02-9faa-3db694c8a2ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/TileGame_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/textures/BlackDog.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tilegame/gfx/Assets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tilegame/gfx/ImageLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tilegame/gfx/SpriteSheet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tilegame/states/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/textures/Slates.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tilegame/entities/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tilegame/entities/creatures/Creature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tilegame/entities/creatures/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tilegame/input/KeyManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tilegame/states/GameState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tilegame/states/MenuState.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TileGame.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TileGame.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tilegame/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tilegame/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tilegame/display/Display.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tilegame/display/Display.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tilegame/gfx/Assets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tilegame/gfx/Assets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tilegame/states/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tilegame/states/State.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +91,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
-    <option name="flattenPackages" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="sortByType" value="true" />
@@ -102,6 +104,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="tilegame.entities.creatures" />
       <recent name="tilegame" />
     </key>
   </component>
@@ -144,12 +147,31 @@
       <option name="project" value="LOCAL" />
       <updated>1612775340813</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added FPS and sprite sheet cropper">
+      <created>1612781496141</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1612781496141</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="First commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+    <MESSAGE value="added FPS and sprite sheet cropper" />
+    <option name="LAST_COMMIT_MESSAGE" value="added FPS and sprite sheet cropper" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tilegame/display/Display.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

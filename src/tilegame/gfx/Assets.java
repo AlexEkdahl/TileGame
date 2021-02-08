@@ -10,9 +10,11 @@ public class Assets {
     public static BufferedImage left1, left2, left3;
     public static BufferedImage right1, right2, right3;
     public static BufferedImage up1, up2, up3;
+    public static BufferedImage grass, dirt, stone;
 
     public static void init() {
         SpriteSheet blackDog = new SpriteSheet(ImageLoader.loadImage("/textures/BlackDog.png"));
+        SpriteSheet slates = new SpriteSheet(ImageLoader.loadImage("/textures/Slates.png"));
         down1 = blackDog.crop(0, 0, width, height);
         down2 = blackDog.crop(width, 0, width, height);
         down3 = blackDog.crop(width * 2, 0, width, height);
@@ -25,6 +27,10 @@ public class Assets {
         up1 = blackDog.crop(0,height*3,width,height);
         up2 = blackDog.crop(width,height*3,width,height);
         up3 = blackDog.crop(width*2,height*3,width,height);
+        grass = slates.crop(0,0,8,8);
+        dirt = slates.crop(width*2,0,8,8);
+        stone = slates.crop(0,height*3,8,8);
+
 
 
 
