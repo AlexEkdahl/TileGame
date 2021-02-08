@@ -1,12 +1,10 @@
 package tilegame;
 
-import tilegame.display.Display;
-
 public class Launcher {
 
     public static void main(String[] args) {
-        new Display("title!", 300,300);
-
+        Game game = new Game("Alex", 400, 400);
+        game.start();
     }
 
 }
