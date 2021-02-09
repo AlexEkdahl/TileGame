@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1590c98b-1172-4d02-9faa-3db694c8a2ad" name="Default Changelist" comment="" />
+    <list default="true" id="1590c98b-1172-4d02-9faa-3db694c8a2ad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/game/gfx/Animation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/World/world1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/res/World/world1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/textures/Panda.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/textures/Panda.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/Launcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/entities/creatures/Creature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/entities/creatures/Creature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/entities/creatures/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/entities/creatures/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/gfx/Assets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/gfx/Assets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/gfx/GameCamera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/gfx/GameCamera.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/maps/WorldMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/maps/WorldMap.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +28,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1oBtPQ16GPiIl16NxAPf6oJe9m4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -86,7 +106,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -101,7 +121,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="tilegame.Launcher" />
+      <option name="MAIN_CLASS_NAME" value="game.Launcher" />
       <module name="TileGame" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -166,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612870130793</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="renamed packages">
+      <created>1612870456096</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1612870456096</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -187,13 +214,14 @@
     <MESSAGE value="added FPS and sprite sheet cropper" />
     <MESSAGE value="added move method and rendering" />
     <MESSAGE value="Added working collision boundaries" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added working collision boundaries" />
+    <MESSAGE value="renamed packages" />
+    <option name="LAST_COMMIT_MESSAGE" value="renamed packages" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/tilegame/display/Display.java</url>
+          <url>file://$PROJECT_DIR$/src/game/display/Display.java</url>
           <line>41</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>

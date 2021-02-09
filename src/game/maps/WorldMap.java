@@ -8,8 +8,8 @@ import java.awt.*;
 
 public class WorldMap {
 
+    private final Handler handler;
     public int renderDistance = 0;
-    private Handler handler;
     private int width;
     private int height;
     private int spawnX;
@@ -53,14 +53,22 @@ public class WorldMap {
     }
 
     public Tile getTile(int x, int y) {
-      if   (x < 0 || y < 0 || x >= width || y >= height){
-          return Tile.grassTile;
-      }
+        if (x < 0 || y < 0 || x >= width || y >= height) {
+            return Tile.grassTile;
+        }
         Tile t = Tile.tiles[tiles[x][y]];
         if (t == null) {
             return Tile.grassTile;
         }
         return t;
+    }
+
+    public int getWidth() {
+        return width;
+    }
+
+    public int getHeight() {
+        return height;
     }
 
 }

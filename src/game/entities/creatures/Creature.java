@@ -8,8 +8,8 @@ public abstract class Creature extends Entity {
 
     public static final int DEFAULT_HEALTH = 10;
     public static final float DEFAULT_SPEED = 3.0f;
-    public static final int DEFAULT_CREATURE_WIDTH = 32;
-    public static final int DEFAULT_CREATURE_HEIGHT = 32;
+    public static final int DEFAULT_CREATURE_WIDTH = 64;
+    public static final int DEFAULT_CREATURE_HEIGHT = 64;
 
     protected int health;
     protected float speed;
@@ -35,11 +35,15 @@ public abstract class Creature extends Entity {
             int tempX = (int) (x + xMove + collisionBounds.x + collisionBounds.width) / Tile.TILE_WIDTH;
             if (isNoCollisionWithBounderiesRightOrLeft(tempX)) {
                 x += xMove;
+            } else {
+                x = tempX * Tile.TILE_WIDTH - collisionBounds.x - collisionBounds.width -1;
             }
         } else if (xMove < 0) {
             int tempX = (int) (x + xMove + collisionBounds.x) / Tile.TILE_WIDTH;
             if (isNoCollisionWithBounderiesRightOrLeft(tempX)) {
                 x += xMove;
+            }else {
+                x = tempX * Tile.TILE_WIDTH + Tile.TILE_WIDTH -collisionBounds.x;
             }
         }
     }
@@ -50,11 +54,15 @@ public abstract class Creature extends Entity {
             int tempY = (int) (y + yMove + collisionBounds.y) / Tile.TILE_HEIGHT;
             if (IsNoCollisionWithBounderiesTopOrDown(tempY)) {
                 y += yMove;
+            } else {
+                y = tempY * Tile.TILE_HEIGHT + Tile.TILE_HEIGHT - collisionBounds.y;
             }
         } else if (yMove > 0) {
             int tempY = (int) (y + yMove + collisionBounds.y + collisionBounds.height) / Tile.TILE_HEIGHT;
             if (IsNoCollisionWithBounderiesTopOrDown(tempY)) {
                 y += yMove;
+            } else {
+                y = tempY * Tile.TILE_HEIGHT - collisionBounds.y - collisionBounds.height -1;
             }
         }
     }
