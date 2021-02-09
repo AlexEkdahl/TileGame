@@ -1,19 +1,28 @@
 package tilegame.entities;
 
+import tilegame.Game;
+
 import java.awt.*;
+import tilegame.Handler;
+
 
 public abstract class Entity {
 
+    protected Handler handler;
     protected float x;
     protected float y;
     protected int width;
     protected int height;
+    protected Rectangle collisionBounds;
 
-    public Entity(float x, float y, int width, int height) {
+    public Entity(Handler handler, float x, float y, int width, int height) {
         this.x = x;
         this.y = y;
         this.width = width;
         this.height = height;
+        this.handler = handler;
+
+        collisionBounds = new Rectangle(0,0,width,height);
     }
 
     public float getX() {

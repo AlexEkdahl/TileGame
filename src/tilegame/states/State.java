@@ -1,16 +1,16 @@
 package tilegame.states;
 
-import tilegame.Game;
+import tilegame.Handler;
 
 import java.awt.*;
 
 public abstract class State {
 
     private static State currentState = null;
-    protected Game game;
+    protected Handler handler;
 
-    public State(Game game) {
-        this.game = game;
+    public State(Handler handler) {
+        this.handler = handler;
     }
 
     public static State getCurrentState() {
@@ -19,6 +19,10 @@ public abstract class State {
 
     public static void setCurrentState(State state) {
         currentState = state;
+    }
+
+    public Handler getHandler() {
+        return handler;
     }
 
     public abstract void tick();
