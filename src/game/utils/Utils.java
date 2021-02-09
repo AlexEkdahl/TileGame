@@ -28,4 +28,8 @@ public class Utils {
             return 0;
         }
     }
+
+    public static int randomGenerator(int min,int max) {
+        return min + (int)(Math.random() * ((max - min) + 1));
+    }
 }

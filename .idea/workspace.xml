@@ -2,17 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1590c98b-1172-4d02-9faa-3db694c8a2ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/game/gfx/Animation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/res/World/world1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/res/World/world1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/textures/BlackDog.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/res/textures/Panda.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/textures/Panda.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/game/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/Launcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/entities/creatures/Creature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/entities/creatures/Creature.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/game/entities/creatures/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/entities/creatures/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/game/gfx/Assets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/gfx/Assets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/gfx/GameCamera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/gfx/GameCamera.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/game/maps/WorldMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/maps/WorldMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/tiles/GrassTile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/tiles/GrassTile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/utils/Utils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

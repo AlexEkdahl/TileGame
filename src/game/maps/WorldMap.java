@@ -12,8 +12,6 @@ public class WorldMap {
     public int renderDistance = 0;
     private int width;
     private int height;
-    private int spawnX;
-    private int spawnY;
     private int[][] tiles;
 
     public WorldMap(Handler handler, String path) {
@@ -26,8 +24,8 @@ public class WorldMap {
         String[] tokens = file.split("\\s+");
         width = Utils.parseInt(tokens[0]);
         height = Utils.parseInt(tokens[1]);
-        spawnX = Utils.parseInt(tokens[2]);
-        spawnY = Utils.parseInt(tokens[3]);
+        int spawnX = Utils.parseInt(tokens[2]);
+        int spawnY = Utils.parseInt(tokens[3]);
         tiles = new int[width][height];
         for (int y = 0; y < height; y++) {
             for (int x = 0; x < width; x++) {
